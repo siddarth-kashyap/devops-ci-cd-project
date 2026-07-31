@@ -40,4 +40,5 @@ This project includes documented failure scenarios, proving the resilience of th
 * **Rapid Recovery:** Failed deployments can be resolved quickly by reverting to a previous Git commit or deploying a previously archived, stable `.war` file directly from Jenkins.
 
 ## Future Enhancements
-To further scale the infrastructure, future iterations of this project will explore replacing the local Tomcat server with containerized deployments. This will involve using Docker to containerize the application, managing the deployment lifecycle via Kubernetes, and provisioning the underlying cloud infrastructure (such as AWS) using Terraform as Infrastructure as Code (IaC).
+To further scale the infrastructure, future iterations of this project will explore replacing the local Tomcat server with containerized deployments.
+This will involve using Docker to containerize the application, managing the deployment lifecycle via Kubernetes, and provisioning the underlying cloud infrastructure (such as AWS) using Terraform as Infrastructure as Code (IaC).
