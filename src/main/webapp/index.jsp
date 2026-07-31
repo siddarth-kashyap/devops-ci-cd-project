@@ -17,5 +17,6 @@
         
         <input type="submit" value="Submit">
     </form>
+    <br><a href="view-feedback.jsp">View Existing Feedback</a>
 </body>
 </html>
