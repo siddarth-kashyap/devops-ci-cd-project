@@ -44,7 +44,7 @@ pipeline {
             steps {
                 echo 'Deploying to local Tomcat...'
                 // IMPORTANT: Replace the path below with your actual Tomcat webapps folder path!
-                bat 'C:\\Users\\Sid\\Desktop\\Assignment\\devops-ci-cd-project\\target\\student-feedback-portal "C:\\Users\\Sid\\Desktop\\Assignment\\devops-ci-cd-project\\src\\main\\webapp\\"'
+                bat 'copy target\\student-feedback-portal.war "C:\\apache-tomcat-10.1.57-windows-x64\\apache-tomcat-10.1.57\\webapps\\"'
             }
         }
         
