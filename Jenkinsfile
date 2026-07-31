@@ -50,9 +50,11 @@ pipeline {
         
         stage('Verify') {
             steps {
+                echo 'Waiting for Tomcat to extract and deploy the WAR file...'
+                // Pause the pipeline for 10 seconds
+                sleep time: 10, unit: 'SECONDS'
+                
                 echo 'Running Health Check...'
-                // Pings the health endpoint we created. The -f flag makes curl fail if it doesn't get a 200 OK.
-                // Adjust the port if your Tomcat is running on 8081 instead of 8080.
                 bat 'curl -f http://localhost:8080/student-feedback-portal/health'
             }
         }
