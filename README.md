@@ -1,7 +1,6 @@
 ---
 
-### 2. `README.md`
-This is the front page of your repository. It acts as your project portfolio, explaining to recruiters or interviewers exactly what you achieved, the tools you used, and how it works.
+### `README.md`
 
 ```markdown
 # End-to-End CI/CD Pipeline for a Java Web Application
